@@ -1,0 +1,46 @@
+#/share_data/PRDATA/lwb/code_GM/yolo/ultralytics/jiaonang/
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO8 dataset (first 8 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco8/
+# Example usage: yolo train data=coco8.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco8  ← downloads here (1 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:/PYCHARM/allexpdata/datasets/xingaoqing1500250 # dataset root dir
+train: images/train # train images (relative to 'path') 4 images
+val: images/val # val images (relative to 'path') 4 images
+test: images/test # test images (optional)
+
+#存在以下标签索引: [0, 1, 2, 3, 5, 6, 31, 32, 33]
+
+# Classes
+names:
+    0: 'Swelling-polyp'
+    1: 'bile'
+    2: 'blood'
+    3: 'edema'
+    4: 'pitch-erosion'
+    5: 'plane-erythema'
+    6: 'plane-leukoplakia'
+    7: 'submucosal-elevation'
+    8: 'wpitch-ulcer'
+    9: 'SB_abnormal-villi'
+    10: 'SB_angiectasis'
+    11: 'SB_aphtha'
+    12: 'SB_blood'
+    13: 'SB_edema'
+    14: 'SB_erosion'
+    15: 'SB_erythema'
+    16: 'SB_parasite'
+    17: 'SB_leukoplakia'
+    18: 'SB_polyp'
+    19: 'SB_redpoint'
+    20: 'SB_tumor'
+    21: 'SB_ulcer'
+    22: 'SB_venous'
+
+
+
